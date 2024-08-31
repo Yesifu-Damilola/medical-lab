@@ -1,0 +1,87 @@
+.header {
+  background-image: url("../../assets/group.-successful-doctors-hospital_85574-5175.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 3rem 0rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.navbar .menu-large {
+  display: block;
+}
+
+.navbar .menu {
+  display: none;
+}
+
+.navbar .nav-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  font-weight: 600;
+}
+
+.nav-list .nav-item {
+  font-size: 18px;
+  color: white;
+}
+
+.medic-span {
+  color: #0052ff;
+  font-weight: 700;
+  padding: 0;
+  /* margin-left: 4rem; */
+}
+
+.header .showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 0rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0rem 1rem;
+  }
+  .navbar {
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    box-shadow: none;
+  }
+  .navbar .menu {
+    display: block;
+  }
+  .navbar .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .menu-icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navbar .menu-large {
+    display: none;
+  }
+  .header .showcase p,
+  .showcase .btn1 {
+    font-size: 16px;
+  }
+  .header .showcase h1 {
+    font-weight: 600;
+  }
+}

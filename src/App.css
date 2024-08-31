@@ -1,0 +1,580 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", Mulish, sans-serif;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    text-align: center;
+    justify-content: center;
+  }
+  .header {
+    background-image: linear-gradient(
+        rgba(000, 000, 000, 0.5),
+        rgba(000, 000, 000, 0.5)
+      ),
+      url("src/assets/group.-successful-doctors-hospital_85574-5175.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+
+  .text-overlay p {
+    font-size: 28px;
+  }
+  .text-overlay h1 {
+    font-weight: bold;
+  }
+  .btn1 {
+    font-size: 28px;
+  }
+}
+
+
+
+.para1 {
+  font-size: 24px;
+}
+.btn1 {
+  color: white;
+  background-color: rgb(53, 53, 232);
+  border-style: none;
+  padding: 5px 16px;
+}
+.hero-div {
+  font-family: Mulish, sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 12px 20px;
+  font-size: 17px;
+}
+@media only screen and (max-width: 768px) {
+  .hero-div {
+    text-align: center;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 400px;
+    width: 210%;
+    margin-left: 2.9rem;
+    padding: 5rem 0;
+  }
+  .hero-div h4 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .apparatus {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+    padding-left: 1rem;
+  }
+  .apparatus2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+  }
+  .department {
+    width: 223.1%;
+  }
+  .brain {
+    margin-bottom: 2.5rem;
+  }
+  .our-departments h4 {
+    font-size: 31px;
+    font-weight: bold;
+  }
+  .our-departments p {
+    font-size: 31px;
+  }
+  .para2 {
+    font-size: 28px;
+  }
+}
+.department {
+  background-color: rgba(248, 248, 248, 0.98);
+}
+.our-departments {
+  font-size: 17px;
+}
+.equipments {
+  background-color: rgb(53, 53, 232);
+  width: 94%;
+  height: 100%;
+  padding-top: 3rem;
+  border-radius: 8px;
+  color: white;
+}
+.psychiatry {
+  background-color: white;
+  width: 94%;
+  height: 100%;
+  padding-top: 3rem;
+  border-radius: 8px;
+  color: blue;
+}
+.apparatus {
+  margin-left: 1.9rem;
+  font-size: 17px;
+}
+.apparatus2 {
+  margin-left: 1.9rem;
+  font-size: 17px;
+}
+.Our-service {
+  text-align: center;
+  justify-content: center;
+  padding-left: 4rem;
+}
+.service {
+  justify-content: center;
+  margin-left: 3rem;
+  border-radius: 15px;
+}
+.service p {
+  font-size: 17px;
+}
+.service h5 {
+  color: #0052ff;
+}
+.nurse-coro {
+  background-color: rgb(53, 53, 232);
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .service {
+    display: block !important;
+    width: 200%;
+    font-size: 80px;
+  }
+  .nurse-vegan {
+    margin: 2rem 0;
+  }
+  .service p {
+    font-size: 21px;
+  }
+}
+.nurse {
+  padding: 1rem 2.3rem;
+  margin-right: 3.6rem;
+  border-radius: 12px;
+}
+.img-nurse {
+  padding-bottom: 5px;
+}
+.vegan-food {
+  padding: 1rem 2.3rem;
+  width: 31%;
+  border-radius: 12px;
+}
+.immunology h5 {
+  color: white;
+}
+.questions {
+  background-color: rgba(248, 248, 248, 0.98);
+  margin: 2rem 0rem;
+}
+.set-btn {
+  margin-left: 2.8rem;
+}
+.set-btn p {
+  font-size: 17px;
+}
+.dropdown-btn {
+  background-color: #fff;
+  color: #0052ff;
+  font-weight: bold;
+  border: 1px solid #0051ff7a;
+  border-radius: 10px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 18rem;
+  padding-left: 0;
+  width: 90%;
+  margin: 1.3rem 0rem;
+}
+.practiotioner-btn {
+  background-color: #fff;
+  color: #0052ff;
+  font-weight: bold;
+  border: 1px solid #0051ff7a;
+  border: 1px solid #0051ff7a;
+  border-radius: 10px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 18rem;
+  padding-left: 1.2rem;
+  margin: 1rem 0;
+  width: 90%;
+}
+
+.ask-ques {
+  background-color: #0052ff;
+  border: none;
+  color: white;
+  padding: 0.7rem 0.9rem 0.7rem 0.9rem;
+  margin-top: 1.3rem;
+}
+.nurse-woman {
+  object-fit: contain;
+  width: 100%;
+  /* height: 43.5rem; */
+}
+.nurse-woman img {
+  width: 65%;
+  /* padding-left: 1rem;  */
+}
+@media only screen and (max-width: 768px) {
+  .questions-sections {
+    display: block !important;
+    /* width: 220%; */
+    font-size: 28px;
+  }
+  .nurse-woman img {
+    /* width: 84.6%; */
+    padding-left: 5rem;
+  }
+  .questions {
+    width: 223.1%;
+    height: 129rem;
+  }
+  .questions h4 {
+    font-size: 31px;
+    font-weight: bold;
+  }
+  .set-btn p {
+    font-size: 27px;
+  }
+  .dropdown-btn {
+    width: 96%;
+  }
+  .practiotioner-btn {
+    width: 96%;
+  }
+}
+.special {
+  margin: 3rem 0rem;
+}
+.doctor {
+  position: relative;
+}
+
+.dr-William {
+  position: absolute;
+  padding-left: 8rem;
+  margin-top: 16.5rem;
+  color: black;
+  font-size: 24px;
+}
+.specialists {
+  margin: 3rem 4rem;
+  justify-content: center;
+  font-size: 17px;
+}
+.list-specialists {
+  margin: 0rem 1rem;
+  width: 41%;
+  border-radius: 1rem;
+}
+.days {
+  margin-right: 12rem;
+  padding-left: 1.2rem;
+}
+.friday-times {
+  padding-left: 2.5rem;
+}
+.saturday-times {
+  padding-left: 1.1rem;
+}
+.Cardiotherapist {
+  padding: 1rem 0rem;
+  font-size: 17px;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(53, 53, 232);
+}
+@media only screen and (max-width: 768px) {
+  .specialists-div {
+    display: block !important;
+    text-align: center;
+    justify-content: center;
+  }
+  .specialists {
+    display: block !important;
+    /* text-align: center; */
+    /* justify-content: center; */
+    width: 210%;
+    /* margin-left: 2.rem; */
+  }
+
+  .mid-specialists {
+    margin: 2.7rem 1rem;
+  }
+  .special {
+    text-align: center;
+    justify-content: center;
+  }
+  .dr-William {
+    text-align: center;
+    justify-content: center;
+    padding-top: 9.5rem;
+    margin-left: 6rem;
+    font-size: 32px !important;
+    font-weight: bold;
+  }
+  .Cardiotherapist {
+    font-size: 31px;
+  }
+  .specialists {
+    font-size: 21px;
+  }
+  .days {
+    margin-right: 23rem;
+  }
+}
+.testimonial-bg {
+  background-image: url(src/assets/testimonial-background.fe7e8ca7559aae4a9e5a.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  position: relative;
+  width: 100%;
+}
+.testimonials {
+  background-color: rgba(5, 87, 250, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.testimonials-text {
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.testimonials-text h2 {
+  margin: 3rem 0rem;
+}
+.testimonial-para {
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 2.5rem;
+}
+
+.testimonial-icons span {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 2rem;
+  /* margin-left: 20rem; */
+  font-size: 22px;
+  font-weight: bold;
+}
+.testimonial-icons span i {
+  padding-top: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .testimonial-bg {
+    width: 223.1%;
+    min-height: 530px;
+  }
+  .testimonial-para {
+    padding: 0rem 1rem;
+    font-size: 31px;
+  }
+  .testimonial-icons span {
+    font-size: 31px;
+  }
+}
+.fa-star {
+  color: rgb(222, 179, 73);
+  width: 2%;
+}
+.fa-circle-chevron-left {
+  padding-right: 10px;
+}
+.testimonial-icons p {
+  padding-left: 5px;
+}
+.ui-designer {
+  color: #0052ff;
+  font-weight: bold;
+}
+
+.LookingForProf {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.prof-austin {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.looking-for-dev {
+  margin-top: 2.5rem;
+}
+
+.looking-input {
+  border: 1px solid #0052ff;
+  border-radius: 10px;
+  color: #3a3a3a;
+  font-family: Mulish, sans-serif;
+  font-size: 15px;
+  font-weight: 500px;
+  padding: 10px 10px;
+  width: 96%;
+}
+.looking-input {
+  margin: 1.7rem 0rem;
+  padding: 1.2rem;
+}
+.message-input {
+  padding-bottom: 6.5rem;
+  padding-left: 1rem;
+}
+.btn-appointment {
+  background-color: #0052ff;
+  border: none;
+  color: white;
+  padding: 0.7rem 0.9rem 0.7rem 0.9rem;
+  margin-top: 1.3rem;
+}
+@media only screen and (max-width: 768px) {
+  .LookingForProf {
+    display: block;
+    margin-left: 3.5rem;
+    width: 215%;
+  }
+  .looking-input {
+    font-size: 25px;
+  }
+  .btn-appointment {
+    margin-bottom: 2.5rem;
+  }
+  .prof-austin img {
+    width: 90%;
+  }
+  .btn-appointment {
+    font-size: 25px;
+  }
+}
+.map-div img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+@media only screen and (max-width: 768px) {
+  .map-div img {
+    width: 223.1%;
+    height: auto;
+  }
+}
+.contact {
+  text-align: center;
+  justify-content: center;
+  font-size: 17px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.contact-text {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-bottom: 3rem;
+  padding: 0rem 5rem;
+}
+@media only screen and (max-width: 768px) {
+  .contact-text {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 223.1%;
+  }
+  .contact {
+    font-size: 30px;
+  }
+  .c1 {
+    font-size: 28px;
+  }
+  .c2 {
+    font-size: 28px;
+  }
+  .c3 {
+    font-size: 28px;
+  }
+  .new-york {
+    text-align: center;
+  }
+}
+
+.footer {
+  padding: 2.5rem 1rem;
+  background-color: #0052ff;
+  color: rgb(255, 255, 255);
+}
+.container {
+  display: flex;
+}
+.footer-text {
+  display: flex;
+}
+.footer-media {
+  display: flex;
+}
+.footer-Mediclab {
+  font-size: 30px;
+  font-weight: bold;
+}
+.copyright {
+  margin-top: 1rem;
+  margin-left: 20rem;
+  margin-right: 10rem;
+  font-size: 19px;
+}
+.footer-media {
+  padding-top: 1rem;
+  margin-left: 12rem;
+}
+.linkedin img {
+  margin-right: 5rem;
+}
+.youtube {
+  margin-right: 5rem;
+}
+.facebook {
+  margin-right: 5rem;
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    width: 223.1%;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-text {
+    padding-left: 0;
+  }
+  .container {
+    margin-left: 10rem;
+  }
+  .copyright {
+    font-size: 21px;
+  }
+}
